@@ -1,71 +1,34 @@
 {
-  "name": "vuetify-vscode",
-  "displayName": "vuetify-vscode",
-  "author": "Vuetifyjs",
+  "name": "vuetify-camelcase-snippets",
+  "displayName": "Vuetify CamelCase Snippets",
+  "author": "Coder911th",
   "icon": "img/logo.png",
-  "description": "Vuetify vscode extension",
+  "description": "Vuetify camel case snippets for vscode",
   "license": "MIT",
-  "version": "0.2.0",
-  "publisher": "vuetifyjs",
-  "galleryBanner": {
-    "color": "#1E88E5",
-    "theme": "dark"
-  },
+  "version": "1.0.0",
   "keywords": [
     "vuetify",
     "vuetifyjs",
     "vuetify autocomplete",
     "vuetify-vscode",
-    "vue"
+    "CamelCase",
+    "snippets",
+    "vue",
+    "Camel",
+    "Case"
   ],
   "engines": {
     "vscode": "^1.5.0"
   },
   "repository": {
-    "url": "https://github.com/vuetifyjs/vuetify-vscode"
+    "url": "https://github.com/Coder911th/Vuetify-CamelCase-Snippets"
   },
-  "homepage": "https://github.com/vuetifyjs/vuetify-vscode",
+  "homepage": "https://github.com/Coder911th/Vuetify-CamelCase-Snippets",
   "bugs": {
-    "url": "https://github.com/vuetifyjs/vuetify-vscode/issues"
+    "url": "https://github.com/Coder911th/Vuetify-CamelCase-Snippets/issues"
   },
   "categories": [
     "Snippets",
     "Other"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "vue",
-        "path": "./snippets/vuetify.json"
-      },
-      {
-        "language": "vue",
-        "path": "./snippets/javascript.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/javascript.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/javascript.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/javascript.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/vuetify.json"
-      },
-      {
-        "language": "vue-html",
-        "path": "./snippets/vuetify.json"
-      },
-      {
-        "language": "jade",
-        "path": "./snippets/vuetify.json"
-      }
-    ]
-  }
+  ]
 }
