@@ -6,7 +6,7 @@
   "icon": "img/logo.png",
   "description": "Vuetify camel case snippets for vscode",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "vuetify",
     "vuetifyjs",
