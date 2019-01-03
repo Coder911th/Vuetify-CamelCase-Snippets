@@ -6,3 +6,13 @@
 
 # Documentation
 For all snippets available for Visual Studio Code [click here](https://github.com/Coder911th/Vuetify-CamelCase-Snippets/blob/master/documentation.md)
+
+###Example
+```
+VLayout
+```
+transforms into
+```
+<VLayout row wrap>
+</VLayout>
+```
