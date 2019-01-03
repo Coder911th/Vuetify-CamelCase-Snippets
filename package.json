@@ -1,6 +1,7 @@
 {
   "name": "vuetify-camelcase-snippets",
   "displayName": "Vuetify CamelCase Snippets",
+  "publisher": "Coder911th",
   "author": "Coder911th",
   "icon": "img/logo.png",
   "description": "Vuetify camel case snippets for vscode",
