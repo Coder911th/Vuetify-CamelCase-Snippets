@@ -31,5 +31,41 @@
   "categories": [
     "Snippets",
     "Other"
-  ]
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vuetify.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vuetify.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/vuetify.json"
+      },
+      {
+        "language": "jade",
+        "path": "./snippets/vuetify.json"
+      }
+    ]
+  }
 }
