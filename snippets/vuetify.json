@@ -1495,7 +1495,7 @@
   "v-spacer component": {
     "prefix": "vSpacer",
     "body": [
-      "<VSpacer></VSpacer>$0"
+      "<VSpacer/>$0"
     ],
     "description": "v-spacer component - Vuetify"
   },

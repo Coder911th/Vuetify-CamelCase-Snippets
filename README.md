@@ -7,12 +7,9 @@
 # Documentation
 For all snippets available for Visual Studio Code [click here](https://github.com/Coder911th/Vuetify-CamelCase-Snippets/blob/master/documentation.md)
 
-### Example
+### Examples
 ```
-VLayout
-```
-transforms into
-```
-<VLayout row wrap>
-</VLayout>
+vApp -> <vApp/>
+VLayout -> <VLayout/>
+VTextField -> <VTextField/>
 ```
