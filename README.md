@@ -10,6 +10,6 @@ For all snippets available for Visual Studio Code [click here](https://github.co
 ### Examples
 ```
 vApp -> <vApp/>
-VLayout -> <VLayout/>
-VTextField -> <VTextField/>
+vLayout -> <VLayout/>
+vTextField -> <VTextField/>
 ```
