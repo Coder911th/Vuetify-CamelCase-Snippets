@@ -1389,7 +1389,7 @@
   "v-layout component": {
     "prefix": "vLayout",
     "body": [
-      "<VLayout row wrap>",
+      "<VLayout>",
       "\t$1",
       "</VLayout>$0"
     ],
@@ -12642,5 +12642,13 @@
       "locale=\"${1|en,en-US,en-GB,fr,de,pl,nl,fi,sv,sv-se,it,es,pt,ru,pt-BR,es-MX,zh-CN,zh-TW,ja,ko|}\"$0"
     ],
     "description": "locale - Vuetify"
-  }
+  },
+  "Toolbar title": {
+		"prefix": "vToolbarTitle",
+		"body": "<VToolbarTitle>$1</VToolbarTitle>"
+	},
+	"Simple Card title": {
+		"prefix": "vCardTitle-simple",
+		"body": "<VCardTitle>$1</VCardTitle>"
+	}
 }
