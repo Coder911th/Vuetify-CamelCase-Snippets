@@ -887,7 +887,7 @@
       "\t\t\t\t\tappend-icon=\"search\"",
       "\t\t\t\t\t:append-icon-cb=\"() => {}\"",
       "\t\t\t\t\tcolor=\"white\"",
-      "\t\t\t\t\thide-details",
+      "\t\t\t\t\thideDetails",
       "\t\t\t\t></VTextField>",
       "\t\t\t</VLayout>",
       "\t\t</VToolbar>",
@@ -2398,9 +2398,7 @@
   "v-card component": {
     "prefix": "vCard",
     "body": [
-      "<VCard>",
-      "\t$1",
-      "</VCard>$0"
+      "<VCard>$1</VCard>$0"
     ],
     "description": "v-card component - Vuetify"
   },
@@ -3030,7 +3028,7 @@
       "\t\t<th>$2",
       "\t\t\t<VCheckbox",
       "\t\t\t\tprimary",
-      "\t\t\t\thide-details",
+      "\t\t\t\thideDetails",
       "\t\t\t\t@click.native=\"toggleAll\"",
       "\t\t\t\t:input-value=\"props.all\"",
       "\t\t\t\t:indeterminate=\"props.indeterminate\"",
@@ -3058,7 +3056,7 @@
       "\t\t${2:<td>",
       "\t\t\t<VCheckbox",
       "\t\t\t\tprimary",
-      "\t\t\t\thide-details",
+      "\t\t\t\thideDetails",
       "\t\t\t\t:input-value=\"props.selected\"",
       "\t\t\t></VCheckbox>",
       "\t\t</td>}$4",
@@ -3346,7 +3344,7 @@
       "\t\t${7: <td>",
       "\t\t\t\t<VCheckbox",
       "\t\t\t\t\tprimary",
-      "\t\t\t\t\thide-details",
+      "\t\t\t\t\thideDetails",
       "\t\t\t\t\tv-model=\"props.selected\"",
       "\t\t\t\t></VCheckbox>",
       "\t\t\t</td>",
@@ -3372,7 +3370,7 @@
       "\t\t\tappend-icon=\"search\"",
       "\t\t\tlabel=\"Search\"",
       "\t\t\tsingle-line",
-      "\t\t\thide-details",
+      "\t\t\thideDetails",
       "\t\t\tv-model=\"${1:search}\"",
       "\t\t></VTextField>",
       "\t</VCardTitle>",
@@ -4024,7 +4022,7 @@
       "\t\t\t\t\t\t\t<VTextField label=\"Legal middle name\" hint=\"example of helper text only on focus\"></VTextField>",
       "\t\t\t\t\t\t</VFlex>",
       "\t\t\t\t\t\t<VFlex xs12 sm6 md4>",
-      "\t\t\t\t\t\t\t<VTextField label=\"Legal last name\" hint=\"example of persistent helper text\" persistent-hint required></VTextField>",
+      "\t\t\t\t\t\t\t<VTextField label=\"Legal last name\" hint=\"example of persistent helper text\" persistentHint required></VTextField>",
       "\t\t\t\t\t\t</VFlex>",
       "\t\t\t\t\t\t<VFlex xs12>",
       "\t\t\t\t\t\t\t<VTextField label=\"Email\" required></VTextField>",
@@ -4664,7 +4662,7 @@
   "v-select props": {
     "prefix": "vSelectProps",
     "body": [
-      "${1|append-icon=\"arrow_drop_down -> String\",append-icon-cb=\"{Function}\",attach,auto,autocomplete,browser-autocomplete=\"on -> String\",cache-items,chips,clearable,color=\"undefined -> String\",combobox,content-class=\"undefined -> String\",dark,deletable-chips,dense,disabled,dont-fill-mask-blanks,editable,error,error-messages=\"[] -> String\\,Array\",filter=\"{Function}\",flat,hide-details,hide-selected,hint,item-avatar=\"avatar -> String\",item-disabled,item-text=\"text -> String\",item-value=\"value -> String\",items=\"[] -> Array\",label=\"undefined -> String\",light,loading=\"false -> Boolean String\",mask=\"undefined -> Object\\,String\",max-height=\"300 -> Number\\,String\",min-width=\"false -> Boolean Number String\",multi-line,multiple,no-data-text=\"No data available -> String\",open-on-clear,overflow,persistent-hint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,return-masked-value,return-object,rules=\"[] -> Array\",search-input=\"undefined -> Any\",segmented,single-line,solo,solo-inverted,tabindex=\"0 -> Any\",tags,toggle-keys=\"[13\\,32] -> Array\",validate-on-blur,value=\"undefined -> Any\",value-comparator=\"{Function}\",change=\"{Event} -> Any\",input=\"{Event} -> Any\",update:error=\"{Event} -> Boolean\",update:search-input=\"{Event} -> String\"|}"
+      "${1|append-icon=\"arrow_drop_down -> String\",append-icon-cb=\"{Function}\",attach,auto,autocomplete,browser-autocomplete=\"on -> String\",cache-items,chips,clearable,color=\"undefined -> String\",combobox,content-class=\"undefined -> String\",dark,deletable-chips,dense,disabled,dont-fill-mask-blanks,editable,error,error-messages=\"[] -> String\\,Array\",filter=\"{Function}\",flat,hideDetails,hide-selected,hint,item-avatar=\"avatar -> String\",item-disabled,item-text=\"text -> String\",item-value=\"value -> String\",items=\"[] -> Array\",label=\"undefined -> String\",light,loading=\"false -> Boolean String\",mask=\"undefined -> Object\\,String\",max-height=\"300 -> Number\\,String\",min-width=\"false -> Boolean Number String\",multi-line,multiple,no-data-text=\"No data available -> String\",open-on-clear,overflow,persistentHint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,return-masked-value,return-object,rules=\"[] -> Array\",search-input=\"undefined -> Any\",segmented,single-line,solo,solo-inverted,tabindex=\"0 -> Any\",tags,toggle-keys=\"[13\\,32] -> Array\",validateOnBlur,value=\"undefined -> Any\",value-comparator=\"{Function}\",change=\"{Event} -> Any\",input=\"{Event} -> Any\",update:error=\"{Event} -> Boolean\",update:search-input=\"{Event} -> String\"|}"
     ],
     "description": "v-select props list - Vuetify"
   },
@@ -4693,7 +4691,7 @@
       "\t${25:error} ${26:error-messages=\"${27:[]}\"}",
       "\t${28:filter=\"${29:Function}\"}",
       "\t${30:flat}",
-      "\t${31:hide-details} ${32:hide-selected}",
+      "\t${31:hideDetails} ${32:hide-selected}",
       "\t${33:hint}",
       "\t${34:item-avatar=\"${35:avatar}\"}",
       "\t${36:item-disabled}",
@@ -4710,7 +4708,7 @@
       "\t${55:no-data-text=\"${56:No data available}\"}",
       "\t${57:open-on-clear}",
       "\t${58:overflow}",
-      "\t${59:persistent-hint}",
+      "\t${59:persistentHint}",
       "\t${60:placeholder=\"${61:undefined}\"}",
       "\t${62:prepend-icon=\"${63:undefined}\"}",
       "\t${64:prepend-icon-cb=\"${65:{Function}}\"}",
@@ -4726,7 +4724,7 @@
       "\t${78:tabindex=\"${79:0}\"}",
       "\t${80:tags}",
       "\t${81:toggle-keys=\"${82:[13\\,32]}\"}",
-      "\t${83:validate-on-blur}",
+      "\t${83:validateOnBlur}",
       "\t${84:value=\"${85:undefined}\"}",
       "\t${86:value-comparator=\"${87:Function}\"}",
       "\t${88:change=\"${89:Event}\"}",
@@ -4765,7 +4763,7 @@
       "\t${4:multiple}",
       "\tmax-height=\"${5:example}\"",
       "\thint=\"${6:Pick your favorite states}\"",
-      "\t${7:persistent-hint}",
+      "\t${7:persistentHint}",
       "></VSelect>$0"
     ],
     "description": "v-select with multiple prop with persistent hint - Vuetify"
@@ -4780,7 +4778,7 @@
       "\t${4:multiple}",
       "\t${5:chips}",
       "\thint=\"${6:Pick your favorite states}\"",
-      "\t${7:persistent-hint}",
+      "\t${7:persistentHint}",
       "></VSelect>$0"
     ],
     "description": "v-select with prop multiple with persistent hint and chip - Vuetify"
@@ -4855,7 +4853,7 @@
   "v-radio-group props": {
     "prefix": "vRadioGroupProps",
     "body": [
-      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",column,dark,disabled,error,error-messages=\"[] -> String\\, Array\",hide-details,hint=\"undefined -> String\",input-value=\"undefined -> Any\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",mandatory,name=\"undefined -> String\",persistent-hint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,row,rules=\"[] -> Array\",tabindex=\"0 -> Any\",toggle-keys=\"[13\\,32] -> Array\",validate-on-blur,value=\"undefined -> Any\",blur=\"{Event} -> any\",change=\"{Event} -> any\",update:error=\"{Event} -> boolean\"|}"
+      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",column,dark,disabled,error,error-messages=\"[] -> String\\, Array\",hideDetails,hint=\"undefined -> String\",input-value=\"undefined -> Any\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",mandatory,name=\"undefined -> String\",persistentHint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,row,rules=\"[] -> Array\",tabindex=\"0 -> Any\",toggle-keys=\"[13\\,32] -> Array\",validateOnBlur,value=\"undefined -> Any\",blur=\"{Event} -> any\",change=\"{Event} -> any\",update:error=\"{Event} -> boolean\"|}"
     ],
     "description": "v-radio-group props list - Vuetify"
   },
@@ -4870,14 +4868,14 @@
       "\t${8:disabled}",
       "\t${9:error}",
       "\t${10:error-messages=\"${11:errorMessages}\"}",
-      "\t${12:hide-details}",
+      "\t${12:hideDetails}",
       "\t${13:hint=\"${14:hint}\"}",
       "\t${15:input-value=\"${16:inputValue}\"}",
       "\t${17:label=\"${18:label}\"}",
       "\t${19:loading=\"${20:loading}\"}",
       "\t${21:mandatory}",
       "\t${22:name=\"${23:name}\"}",
-      "\t${24:persistent-hint}",
+      "\t${24:persistentHint}",
       "\t${25:placeholder=\"${26:placeholder}\"}",
       "\t${27:prepend-icon=\"${28:icon}\"}",
       "\t${29:prepend-icon-cb=\"${30:Function}\"}",
@@ -4885,7 +4883,7 @@
       "\t${34:rules=\"${35:rulese}\"}",
       "\t${36:tabindex=\"${37:0}\"}",
       "\t${38:toggle-keys=\"${39:[13\\,32]}\"}",
-      "\t${40:validate-on-blur}",
+      "\t${40:validateOnBlur}",
       "\t${41:value=\"${42:value}\"}",
       "\t${43:blur=\"${44:onBlur}\"}",
       "\t${45:change=\"${46:onChange}\"}",
@@ -4945,7 +4943,7 @@
   "v-checkbox props": {
     "prefix": "vCheckboxProps",
     "body": [
-      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",color=\"undefined -> String\",dark,disabled,error,error-messages=\"[] -> String\\, Array\",false-value=\"undefined -> Any\",hide-details,hint=\"undefined -> String\",id=\"undefined -> String\",indeterminate,input-value=\"undefined -> Any\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",persistent-hint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,ripple=\"true -> Boolean\\, Object\",rules=\"[] -> Array\",tabindex=\"0 -> Any\",toggle-keys=\"[13\\,32] -> Array\",true-value=\"undefined -> Any\",validate-on-blur,value=\"undefined -> Any\",blur=\"{Event} -> any\"|}"
+      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",color=\"undefined -> String\",dark,disabled,error,error-messages=\"[] -> String\\, Array\",false-value=\"undefined -> Any\",hideDetails,hint=\"undefined -> String\",id=\"undefined -> String\",indeterminate,input-value=\"undefined -> Any\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",persistentHint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,ripple=\"true -> Boolean\\, Object\",rules=\"[] -> Array\",tabindex=\"0 -> Any\",toggle-keys=\"[13\\,32] -> Array\",true-value=\"undefined -> Any\",validateOnBlur,value=\"undefined -> Any\",blur=\"{Event} -> any\"|}"
     ],
     "description": "v-checkbox props list - Vuetify"
   },
@@ -4962,14 +4960,14 @@
       "\t${13:disabled}",
       "\t${14:error} ${15:error-messages=\"${16:errorMessages}\"}",
       "\t${17:false-value=\"${18:falseValue}\"}",
-      "\t${19:hide-details}",
+      "\t${19:hideDetails}",
       "\t${20:hint=\"${21:hint}\"}",
       "\t${22:id=\"${23:id}\"}",
       "\t${24:indeterminate}",
       "\t${25:input-value=\"${26:inputValue}\"}",
       "\t${27:label=\"${28:label}\"}",
       "\t${29:loading=\"${30:false}\"}",
-      "\t${31:persistent-hint}",
+      "\t${31:persistentHint}",
       "\t${32:placeholder=\"${33:placeholder}\"}",
       "\t${34:readonly}",
       "\t${35:required}",
@@ -4978,7 +4976,7 @@
       "\t${40:tabindex=\"${41:0}\"}",
       "\t${42:toggle-keys=\"${43:[13\\,32]}\"}",
       "\t${44:true-value=\"${45:trueValue}\"}",
-      "\t${46:validate-on-blur}",
+      "\t${46:validateOnBlur}",
       "\t${47:value=\"${1:value}\"}",
       "\t${48:blur=\"${49:onBlur}\"}",
       "></VCheckbox>$0"
@@ -5017,7 +5015,7 @@
     "prefix": "vCheckboxInlineTextfield",
     "body": [
       "<VLayout align-center>",
-      "\t<VCheckbox v-model=\"${1:value}\" hide-details class=\"shrink mr-2\"></VCheckbox>",
+      "\t<VCheckbox v-model=\"${1:value}\" hideDetails class=\"shrink mr-2\"></VCheckbox>",
       "\t<VTextField label=\"${2:label}\" :disabled=\"!$1\"></VTextField>",
       "</VLayout>$0"
     ],
@@ -5033,7 +5031,7 @@
   "v-switch props": {
     "prefix": "vSwitchProps",
     "body": [
-      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",color=\"undefined -> String\",dark,disabled,error,error-messages=\"[] -> String\\, Array\",false-value=\"undefined -> Any\",hide-details,hint,id=\"undefined -> String\",input-value=\"undefined -> Any\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",persistent-hint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,ripple=\"true -> Boolean\\, Object\",rules=\"[] -> Array\",tabindex=\"0 -> Any\",toggle-keys=\"[13\\,32] -> Array\",true-value=\"undefined -> Any\",validate-on-blur,value=\"undefined -> Any\"|}"
+      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",color=\"undefined -> String\",dark,disabled,error,error-messages=\"[] -> String\\, Array\",false-value=\"undefined -> Any\",hideDetails,hint,id=\"undefined -> String\",input-value=\"undefined -> Any\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",persistentHint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,ripple=\"true -> Boolean\\, Object\",rules=\"[] -> Array\",tabindex=\"0 -> Any\",toggle-keys=\"[13\\,32] -> Array\",true-value=\"undefined -> Any\",validateOnBlur,value=\"undefined -> Any\"|}"
     ],
     "description": "v-swith props list - Vuetify"
   },
@@ -5050,8 +5048,8 @@
       "\t${13:disabled}",
       "\t${14:error} ${15:error-messages=\"${16:errorMessages}\"}",
       "\t${17:false-value=\"${18:falseValue}\"}",
-      "\t${19:hide-details}",
-      "\t${20:hint} ${21:persistent-hint}",
+      "\t${19:hideDetails}",
+      "\t${20:hint} ${21:persistentHint}",
       "\t${22:id=\"${23:id}\"}",
       "\t${24:input-value=\"${25:inputValue}\"}",
       "\t${26:label=\"${27:label}\"}",
@@ -5064,7 +5062,7 @@
       "\t${38:tabindex=\"${39:0}\"}",
       "\t${40:toggle-keys=\"${41:[13\\,32]}\"}",
       "\t${42:true-value=\"${43:trueValue}\"}",
-      "\t${44:validate-on-blur}",
+      "\t${44:validateOnBlur}",
       "\t${45:value=\"${46:value}\"}",
       "></VSwitch>$0"
     ],
@@ -5088,17 +5086,16 @@
     "prefix": "vTextField",
     "body": [
       "<VTextField",
-      "\tname=\"${1:name}\"",
-      "\tlabel=\"${2:label}\"",
-      "\tid=\"${3:id}\"",
-      "></VTextField>$0"
+      "\t\tv-model=\"$0\"",
+      "\t\tlabel=\"$1\"$2",
+      "/>$3"
     ],
     "description": "v-text-field component - Vuetify"
   },
   "v-text-field props": {
     "prefix": "vTextFieldProps",
     "body": [
-      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",auto-grow,autofocus,box,clearable,color=\"primary -> String\",counter=\"undefined -> Boolean\\, Number\\, String\",dark,disabled,dont-fill-mask-blanks,error,error-messages=\"[] -> String\\, Array\",flat,full-width,hide-details,hint,label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",mask=\"undefined -> Object\\, String\",multi-line,no-resize,persistent-hint,placeholder=\"undefined -> String\",prefix=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,return-masked-value,row-height=\"24 -> Number\\, String\",rows=\"5 -> Number\\, String\",rules=\"[] -> Array\",single-line,solo,solo-inverted,suffix=\"undefined -> String\",tabindex=\"0 -> Any\",textarea,toggle-keys=\"[13\\,32] -> Array\",type=\"text -> String\",validate-on-blur,value=\"undefined -> Any\",change=\"{Event} -> string\",input=\"{Event} -> string\",update:error=\"{Event} -> boolean\"|}"
+      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",auto-grow,autofocus,box,clearable,color=\"primary -> String\",counter=\"undefined -> Boolean\\, Number\\, String\",dark,disabled,dont-fill-mask-blanks,error,error-messages=\"[] -> String\\, Array\",flat,full-width,hideDetails,hint,label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",mask=\"undefined -> Object\\, String\",multi-line,no-resize,persistentHint,placeholder=\"undefined -> String\",prefix=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,return-masked-value,row-height=\"24 -> Number\\, String\",rows=\"5 -> Number\\, String\",rules=\"[] -> Array\",single-line,solo,solo-inverted,suffix=\"undefined -> String\",tabindex=\"0 -> Any\",textarea,toggle-keys=\"[13\\,32] -> Array\",type=\"text -> String\",validateOnBlur,value=\"undefined -> Any\",change=\"{Event} -> string\",input=\"{Event} -> string\",update:error=\"{Event} -> boolean\"|}"
     ],
     "description": "v-text-field all props - Vuetify"
   },
@@ -5122,8 +5119,8 @@
       "\t${21:error} ${22:error-messages=\"${23:errorMessages}\"}",
       "\t${24:flat}",
       "\t${25:full-width}",
-      "\t${26:hide-details}",
-      "\t${27:hint} ${28:persistent-hint}",
+      "\t${26:hideDetails}",
+      "\t${27:hint} ${28:persistentHint}",
       "\t${29:label=\"${30:label}\"}",
       "\t${31:loading=\"${32:false}\"}",
       "\t${33:mask=\"${34:mask}\"}",
@@ -5142,7 +5139,7 @@
       "\t${56:tabindex=\"${57:0}\"}",
       "\t${58:toggle-keys=\"${59:[13,32]\"}\"}",
       "\t${60:type=\"${61:text}\"}",
-      "\t${62:validate-on-blur}",
+      "\t${62:validateOnBlur}",
       "\t${63:value=\"${64:value}\"}",
       "\t${65:change=\"${66:onChange}\"}",
       "\t${67:input=\"${68:onInput}\"}",
@@ -6830,7 +6827,7 @@
   "v-slider props": {
     "prefix": "vSliderProps",
     "body": [
-      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",color=\"undefined -> String\",dark,disabled,error,error-messages=\"[] -> String\\, Array\",hide-details,hint=\"undefined -> String\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",max=\"100 -> Number\\, String\",min=\"0 -> Number\\, String\",persistent-hint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,rules=\"[] -> Array\",step=\"1 -> Number\\, String\",tabindex=\"0 -> Any\",thumb-color=\"undefined -> String\",thumb-label,ticks,toggle-keys=\"[13\\,32] -> Array\",track-color=\"undefined -> String\",validate-on-blur,value=\"undefined -> Number\\, String\",input=\"{Event} -> number\",update:error=\"{Event} -> boolean\"|}"
+      "${1|append-icon=\"undefined -> String\",append-icon-cb=\"{Function}\",color=\"undefined -> String\",dark,disabled,error,error-messages=\"[] -> String\\, Array\",hideDetails,hint=\"undefined -> String\",label=\"undefined -> String\",light,loading=\"false -> Boolean\\, String\",max=\"100 -> Number\\, String\",min=\"0 -> Number\\, String\",persistentHint,placeholder=\"undefined -> String\",prepend-icon=\"undefined -> String\",prepend-icon-cb=\"{Function}\",readonly,required,rules=\"[] -> Array\",step=\"1 -> Number\\, String\",tabindex=\"0 -> Any\",thumb-color=\"undefined -> String\",thumb-label,ticks,toggle-keys=\"[13\\,32] -> Array\",track-color=\"undefined -> String\",validateOnBlur,value=\"undefined -> Number\\, String\",input=\"{Event} -> number\",update:error=\"{Event} -> boolean\"|}"
     ],
     "description": "v-slider props list - Vuetify"
   },
@@ -6845,8 +6842,8 @@
       "\t${9:disabled}",
       "\t${10:error}",
       "\t${11:error-messages=\"${12:errorMeassages}\"}",
-      "\t${13:hide-details}",
-      "\t${14:persistent-hint}",
+      "\t${13:hideDetails}",
+      "\t${14:persistentHint}",
       "\t${15:hint=\"${16:hint}\"}",
       "\t${17:label=\"${18:label}\"}",
       "\t${19::loading=\"${20:false}\"}",
@@ -6865,7 +6862,7 @@
       "\t${42:ticks}",
       "\t${43:toggle-keys=\"${44:[13,32]}\"}",
       "\t${45:track-color=\"${46|primary,accent,secondary,success,info,error,red,red lighten-5,red lighten-4,red lighten-3,red lighten-2,red lighten-1,red darken-1,red darken-2,red darken-3,red darken-4,red accent-1,red accent-2,red accent-3,red accent-4,pink,pink lighten-5,pink lighten-4,pink lighten-3,pink lighten-2,pink lighten-1,pink darken-1,pink darken-2,pink darken-3,pink darken-4,pink accent-1,pink accent-2,pink accent-3,pink accent-4,purple,purple lighten-5,purple lighten-4,purple lighten-3,purple lighten-2,purple lighten-1,purple darken-1,purple darken-2,purple darken-3,purple darken-4,purple accent-1,purple accent-2,purple accent-3,purple accent-4,deep-purple,deep-purple lighten-5,deep-purple lighten-4,deep-purple lighten-3,deep-purple lighten-2,deep-purple lighten-1,deep-purple darken-1,deep-purple darken-2,deep-purple darken-3,deep-purple darken-4,deep-purple accent-1,deep-purple accent-2,deep-purple accent-3,deep-purple accent-4,indigo,indigo lighten-5,indigo lighten-4,indigo lighten-3,indigo lighten-2,indigo lighten-1,indigo darken-1,indigo darken-2,indigo darken-3,indigo darken-4,indigo accent-1,indigo accent-2,indigo accent-3,indigo accent-4,blue,blue lighten-5,blue lighten-4,blue lighten-3,blue lighten-2,blue lighten-1,blue darken-1,blue darken-2,blue darken-3,blue darken-4,blue accent-1,blue accent-2,blue accent-3,blue accent-4,light-blue,light-blue lighten-5,light-blue lighten-4,light-blue lighten-3,light-blue lighten-2,light-blue lighten-1,light-blue darken-1,light-blue darken-2,light-blue darken-3,light-blue darken-4,light-blue accent-1,light-blue accent-2,light-blue accent-3,light-blue accent-4,cyan,cyan lighten-5,cyan lighten-4,cyan lighten-3,cyan lighten-2,cyan lighten-1,cyan darken-1,cyan darken-2,cyan darken-3,cyan darken-4,cyan accent-1,cyan accent-2,cyan accent-3,cyan accent-4,teal,teal lighten-5,teal lighten-4,teal lighten-3,teal lighten-2,teal lighten-1,teal darken-1,teal darken-2,teal darken-3,teal darken-4,teal accent-1,teal accent-2,teal accent-3,teal accent-4,green,green lighten-5,green lighten-4,green lighten-3,green lighten-2,green lighten-1,green darken-1,green darken-2,green darken-3,green darken-4,green accent-1,green accent-2,green accent-3,green accent-4,light-green,light-green lighten-5,light-green lighten-4,light-green lighten-3,light-green lighten-2,light-green lighten-1,light-green darken-1,light-green darken-2,light-green darken-3,light-green darken-4,light-green accent-1,light-green accent-2,light-green accent-3,light-green accent-4,lime,lime lighten-5,lime lighten-4,lime lighten-3,lime lighten-2,lime lighten-1,lime darken-1,lime darken-2,lime darken-3,lime darken-4,lime accent-1,lime accent-2,lime accent-3,lime accent-4,yellow,yellow lighten-5,yellow lighten-4,yellow lighten-3,yellow lighten-2,yellow lighten-1,yellow darken-1,yellow darken-2,yellow darken-3,yellow darken-4,yellow accent-1,yellow accent-2,yellow accent-3,yellow accent-4,amber,amber lighten-5,amber lighten-4,amber lighten-3,amber lighten-2,amber lighten-1,amber darken-1,amber darken-2,amber darken-3,amber darken-4,amber accent-1,amber accent-2,amber accent-3,amber accent-4,orange,orange lighten-5,orange lighten-4,orange lighten-3,orange lighten-2,orange lighten-1,orange darken-1,orange darken-2,orange darken-3,orange darken-4,orange accent-1,orange accent-2,orange accent-3,orange accent-4,deep-orange,deep-orange lighten-5,deep-orange lighten-4,deep-orange lighten-3,deep-orange lighten-2,deep-orange lighten-1,deep-orange darken-1,deep-orange darken-2,deep-orange darken-3,deep-orange darken-4,deep-orange accent-1,deep-orange accent-2,deep-orange accent-3,deep-orange accent-4,brown,brown lighten-5,brown lighten-4,brown lighten-3,brown lighten-2,brown lighten-1,brown darken-1,brown darken-2,brown darken-3,brown darken-4,blue-grey,blue-grey lighten-5,blue-grey lighten-4,blue-grey lighten-3,blue-grey lighten-2,blue-grey lighten-1,blue-grey darken-1,blue-grey darken-2,blue-grey darken-3,blue-grey darken-4,grey,grey lighten-5,grey lighten-4,grey lighten-3,grey lighten-2,grey lighten-1,grey darken-1,grey darken-2,grey darken-3,grey darken-4,black,white,transparent|}\"}",
-      "\t${47:validate-on-blur}",
+      "\t${47:validateOnBlur}",
       "\t${48:value=\"${49:value}\"}",
       "\t${50:input=\"${51:onInput}\"}",
       "\t${52:update:error=\"${53:onUpdate:error}\"}",
@@ -7530,7 +7527,7 @@
       "\t\tfloating",
       "\t\tdense",
       "\t>",
-      "\t\t<VTextField prepend-icon=\"search\" hide-details single-line></VTextField>",
+      "\t\t<VTextField prepend-icon=\"search\" hideDetails single-line></VTextField>",
       "\t\t<VBtn icon>",
       "\t\t\t<VIcon>my_location</VIcon>",
       "\t\t</VBtn>",
@@ -10761,9 +10758,9 @@
     "description": "hide-actions - Vuetify"
   },
   "hide-details": {
-    "prefix": "hideDetails",
+    "prefix": "hide-details",
     "body": [
-      "hide-details$0"
+      "hideDetails$0"
     ],
     "description": "hide-details - Vuetify"
   },
@@ -10924,7 +10921,7 @@
   "persistent-hint": {
     "prefix": "persistentHint",
     "body": [
-      "persistent-hint$0"
+      "persistentHint$0"
     ],
     "description": "persistent-hint - Vuetify"
   },
@@ -11370,9 +11367,9 @@
     "description": "solo-inverted - Vuetify"
   },
   "validate-on-blur": {
-    "prefix": "validateOnBlur",
+    "prefix": "validate-on-blur",
     "body": [
-      "validate-on-blur$0"
+      "validateOnBlur$0"
     ],
     "description": "validate-on-blur - Vuetify"
   },
