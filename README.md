@@ -9,7 +9,7 @@ For all snippets available for Visual Studio Code [click here](https://github.co
 
 ### Examples
 ```
-vApp -> <vApp/>
+vApp -> <VApp/>
 vLayout -> <VLayout/>
 vTextField -> <VTextField/>
 ```
