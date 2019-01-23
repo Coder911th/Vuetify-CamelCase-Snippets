@@ -2587,9 +2587,7 @@
   "v-card-title component": {
     "prefix": "vCardTitle",
     "body": [
-      "<VCardTitle ${1:primary-title}>",
-      "\t${2:title}",
-      "</VCardTitle>$0"
+      "<VCardTitle ${1:primary-title}>$2</VCardTitle>$0"
     ],
     "description": "v-card-title component - Vuetify"
   },
@@ -2612,9 +2610,7 @@
   "v-card-text component": {
     "prefix": "vCardText",
     "body": [
-      "<VCardText>",
-      "\t$1",
-      "</VCardText>$0"
+      "<VCardText>$1</VCardText>$0"
     ],
     "description": "v-card-text component - Vuetify"
   },
@@ -5086,9 +5082,8 @@
     "prefix": "vTextField",
     "body": [
       "<VTextField",
-      "\t\tv-model=\"$0\"",
-      "\t\tlabel=\"$1\"$2",
-      "/>$3"
+      "\t\tv-model=\"$1\"",
+      "\t\tlabel=\"$2\"$0/>$3"
     ],
     "description": "v-text-field component - Vuetify"
   },
