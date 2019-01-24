@@ -4328,9 +4328,7 @@
   "v-form component": {
     "prefix": "vForm",
     "body": [
-      "<VForm>",
-      "\t$1",
-      "</VForm>$0"
+      "<VForm>$1</VForm>$0"
     ],
     "description": "v-form component - Vuetify"
   },
