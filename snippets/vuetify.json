@@ -1388,11 +1388,7 @@
   },
   "v-layout component": {
     "prefix": "vLayout",
-    "body": [
-      "<VLayout>",
-      "\t$1",
-      "</VLayout>$0"
-    ],
+    "body": "<VLayout$1>$2</VLayout>$0",
     "description": "v-layout component - Vuetify"
   },
   "v-layout props": {
@@ -1445,11 +1441,7 @@
   },
   "v-flex component": {
     "prefix": "vFlex",
-    "body": [
-      "<VFlex ${1:${2|xs,sm,md,lg,xl|}${3|1,2,3,4,5,6,7,8,9,10,11,12|}}>",
-      "\t$4",
-      "</VFlex>$0"
-    ],
+    "body": "<VFlex$1>$2</VFlex>$0",
     "description": "v-flex component - Vuetify"
   },
   "v-flex props": {
