@@ -2583,6 +2583,18 @@
     ],
     "description": "v-card-title component - Vuetify"
   },
+  "VCardTitle": {
+    "prefix": "VCardTitle",
+    "body": [
+      "<VCardTitle>$1</VCardTitle>$0"
+    ]
+  },
+  "VCardText": {
+    "prefix": "VCardText",
+    "body": [
+      "<VCardText>$1</VCardText>$0"
+    ]
+  },
   "v-card-title props": {
     "prefix": "vCardTitleProps",
     "body": [
@@ -4106,9 +4118,7 @@
   },
   "v-divider component": {
     "prefix": "vDivider",
-    "body": [
-      "<VDivider>$1</VDivider>$0"
-    ],
+    "body": "<VDivider/>$0",
     "description": "v-divider component - Vuetify"
   },
   "v-divider props": {
