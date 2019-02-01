@@ -2825,14 +2825,10 @@
     "prefix": "vDataIterator",
     "body": [
       "<VDataIterator",
-      "\tcontent-tag=\"${1:tag}\"",
-      "\t${2:row}",
-      "\t${3:wrap}",
-      "\titems=\"${4:items}\"",
-      "\trows-per-page-items=\"${5:rowsPerPageItems}\"",
-      "\tpagination.sync=\"${6:pagination}\"",
-      ">",
-      "\t$7",
+      "\t\titems=\"$1\"",
+      "\t\trowsPerPageItems=\"$2\"",
+      "\t\tpagination.sync=\"$3\">",
+      "\t$4",
       "</VDataIterator>$0"
     ],
     "description": "v-data-iterator component - Vuetify"
@@ -10748,12 +10744,12 @@
   "hide-actions": {
     "prefix": "hideActions",
     "body": [
-      "hide-actions$0"
+      "hideActions$0"
     ],
     "description": "hide-actions - Vuetify"
   },
-  "hide-details": {
-    "prefix": "hide-details",
+  "hideDetails": {
+    "prefix": "hideDetails",
     "body": [
       "hideDetails$0"
     ],
@@ -10773,10 +10769,10 @@
     ],
     "description": "return-masked-value - Vuetify"
   },
-  "no-resize": {
+  "noResize": {
     "prefix": "noResize",
     "body": [
-      "no-resize$0"
+      "noResize$0"
     ],
     "description": "no-resize - Vuetify"
   },
@@ -11937,9 +11933,7 @@
   },
   "rows-per-page-items": {
     "prefix": "rowsPerPageItems",
-    "body": [
-      "rows-per-page-items=\"$1\"$0"
-    ],
+    "body": "rowsPerPageItems$0",
     "description": "rows-per-page-items - Vuetify"
   },
   "total-items": {
