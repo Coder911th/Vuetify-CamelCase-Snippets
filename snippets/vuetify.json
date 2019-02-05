@@ -12636,5 +12636,9 @@
 	"Simple Card title": {
 		"prefix": "vCardTitle-simple",
 		"body": "<VCardTitle>$1</VCardTitle>"
-	}
+  },
+  "vHover": {
+    "prefix": "vHover",
+    "body": "<VHover>$1</VHover>$0"
+  }
 }
