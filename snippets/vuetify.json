@@ -1320,32 +1320,17 @@
     ],
     "description": "Blog Pre-defined themes - Vuetify"
   },
-  "v-app component": {
+  "vApp": {
     "prefix": "vApp",
-    "body": [
-      "<VApp>",
-      "\t$2",
-      "</VApp>$0"
-    ],
-    "description": "v-app component - Vuetify"
+    "body": "<VApp>$1</VApp>$0"
   },
-  "v-content component": {
+  "vContent": {
     "prefix": "vContent",
-    "body": [
-      "<VContent>",
-      "\t$2",
-      "</VContent>$0"
-    ],
-    "description": "v-content component - Vuetify"
+    "body": "<VContent>$1</VContent>$0"
   },
-  "v-container component": {
+  "vContainer": {
     "prefix": "vContainer",
-    "body": [
-      "<VContainer grid-list-${1|xs,sm,md,lg,xl|}>",
-      "\t$2",
-      "</VContainer>$0"
-    ],
-    "description": "v-container component - Vuetify"
+    "body": "<vContainer>$1</vContainer>$0"
   },
   "v-container props": {
     "prefix": "vContainerProps",
@@ -1386,10 +1371,9 @@
     ],
     "description": "v-container with all props - Vuetify"
   },
-  "v-layout component": {
+  "vLayout": {
     "prefix": "vLayout",
-    "body": "<VLayout$1>$2</VLayout>$0",
-    "description": "v-layout component - Vuetify"
+    "body": "<VLayout>$1</VLayout>$0"
   },
   "v-layout props": {
     "prefix": "vLayoutProps",
@@ -1439,10 +1423,9 @@
     ],
     "description": "v-layout with column prop - Vuetify"
   },
-  "v-flex component": {
+  "vFlex": {
     "prefix": "vFlex",
-    "body": "<VFlex$1>$2</VFlex>$0",
-    "description": "v-flex component - Vuetify"
+    "body": "<VFlex>$1</VFlex>$0"
   },
   "v-flex props": {
     "prefix": "vFlexProps",
@@ -1484,12 +1467,9 @@
     ],
     "description": "v-flex with all props - Vuetify"
   },
-  "v-spacer component": {
+  "VSpacer": {
     "prefix": "vSpacer",
-    "body": [
-      "<VSpacer/>$0"
-    ],
-    "description": "v-spacer component - Vuetify"
+    "body": "<VSpacer/>$0"
   },
   "Spacing options": {
     "prefix": "vSpacing",
@@ -11322,12 +11302,11 @@
     ],
     "description": "required - Vuetify"
   },
-  "return-object": {
+  "returnObject": {
     "prefix": "returnObject",
     "body": [
-      "return-object$0"
-    ],
-    "description": "return-object - Vuetify"
+      "returnObject$0"
+    ]
   },
   "segmented": {
     "prefix": "segmented",
@@ -11336,12 +11315,11 @@
     ],
     "description": "segmented - Vuetify"
   },
-  "single-line": {
+  "singleLine": {
     "prefix": "singleLine",
     "body": [
-      "single-line$0"
-    ],
-    "description": "single-line - Vuetify"
+      "singleLine$0"
+    ]
   },
   "solo": {
     "prefix": "solo",
@@ -11371,12 +11349,11 @@
     ],
     "description": "mandatory - Vuetify"
   },
-  "auto-grow": {
+  "autoGrow": {
     "prefix": "autoGrow",
     "body": [
-      "auto-grow$0"
-    ],
-    "description": "auto-grow - Vuetify"
+      "autoGrow$0"
+    ]
   },
   "autofocus": {
     "prefix": "autofocus",
@@ -12640,5 +12617,13 @@
   "vHover": {
     "prefix": "vHover",
     "body": "<VHover>$1</VHover>$0"
+  },
+  "shrink": {
+    "prefix": "shrink",
+    "body": "shrink$0"
+  },
+  "VTextarea": {
+    "prefix": "VTextarea",
+    "body": "<VTextarea$1/>$0"
   }
 }
