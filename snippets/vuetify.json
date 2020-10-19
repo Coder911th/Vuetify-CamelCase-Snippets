@@ -1,4 +1,116 @@
 {
+  "v-row": {
+    "prefix": "vRow",
+    "body": [
+      "<VRow>$1</VRow>$0"
+    ],
+    "description": "v-row"
+  },
+  "v-row with class": {
+    "prefix": "vRowClass",
+    "body": [
+      "<VRow class=\"$1\">$2</VRow>$0"
+    ],
+    "description": "v-row with empty class"
+  },
+  "v-col": {
+    "prefix": "vCol",
+    "body": [
+      "<VCol>$1</VCol>$0"
+    ],
+    "description": "v-col"
+  },
+  "v-col with class": {
+    "prefix": "vColClass",
+    "body": [
+      "<VCol class=\"$1\">$2</VCol>$0"
+    ],
+    "description": "v-col with empty class"
+  },
+  "v-col with cols=1": {
+    "prefix": "vCol1",
+    "body": [
+      "<VCol cols=\"1\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=1"
+  },
+  "v-col with cols=2": {
+    "prefix": "vCol2",
+    "body": [
+      "<VCol cols=\"2\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=2"
+  },
+  "v-col with cols=3": {
+    "prefix": "vCol3",
+    "body": [
+      "<VCol cols=\"3\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=3"
+  },
+  "v-col with cols=4": {
+    "prefix": "vCol4",
+    "body": [
+      "<VCol cols=\"4\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=4"
+  },
+  "v-col with cols=5": {
+    "prefix": "vCol5",
+    "body": [
+      "<VCol cols=\"5\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=5"
+  },
+  "v-col with cols=6": {
+    "prefix": "vCol6",
+    "body": [
+      "<VCol cols=\"6\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=6"
+  },
+  "v-col with cols=7": {
+    "prefix": "vCol7",
+    "body": [
+      "<VCol cols=\"7\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=7"
+  },
+  "v-col with cols=8": {
+    "prefix": "vCol8",
+    "body": [
+      "<VCol cols=\"8\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=8"
+  },
+  "v-col with cols=9": {
+    "prefix": "vCol9",
+    "body": [
+      "<VCol cols=\"9\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=9"
+  },
+  "v-col with cols=10": {
+    "prefix": "vCol10",
+    "body": [
+      "<VCol cols=\"10\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=10"
+  },
+  "v-col with cols=11": {
+    "prefix": "vCol11",
+    "body": [
+      "<VCol cols=\"11\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=11"
+  },
+  "v-col with cols=12": {
+    "prefix": "vCol12",
+    "body": [
+      "<VCol cols=\"12\">$1</VCol>$0"
+    ],
+    "description": "v-col with cols=12"
+  },
   "Vuetify script link": {
     "prefix": "vLink",
     "body": [
